@@ -1,0 +1,1 @@
+Corrected full README with image placements and markdown formatting from previous version.
