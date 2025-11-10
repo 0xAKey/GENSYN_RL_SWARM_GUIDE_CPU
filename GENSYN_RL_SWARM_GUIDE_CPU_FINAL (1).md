@@ -127,11 +127,12 @@ If you still want to explore manual models, refer to **Choose customised models*
 🎉 Here we go — it’s done! ✅  
 Your node will start generating logs soon 🙌
 
+
+![](./images/swarm-logs.png)
+
 ⚠️ You will see **error messages and warnings** appearing in the terminal log —  
 these are normal and can be safely ignored.  
 If you see new rounds or DHT messages scrolling, your node is working fine ✅
-
-![](./images/swarm-logs.png)
 
 ---
 
@@ -162,9 +163,8 @@ cloudflared tunnel --url http://localhost:3000
 ![](./images/cloudflared-tunnel.png)
 
 You’ll get a public HTTPS link to access your login page.
-Now follow the login flow — done! ✅
 
-![](./images/gensyn-login.png)
+Now follow the login flow — done! ✅
 
 ---
 
