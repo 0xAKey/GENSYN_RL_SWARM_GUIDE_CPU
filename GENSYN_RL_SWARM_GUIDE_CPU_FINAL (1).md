@@ -23,14 +23,15 @@ sudo apt install -y python3 python3-pip python3-venv python-is-python3
 cd ~
 git clone https://github.com/gensyn-ai/rl-swarm.git
 cd rl-swarm
+
+
 ```
+![](./images/import-swarm-file.png)
 
 🧩 Import existing swarm file (optional)  
 If you’ve previously run a node and already have a swarm file, import it here.  
 Simply drag your existing swarm file into the `~/rl-swarm/swarm` folder.  
 If skipped, a new swarm file will be auto-generated when you launch the swarm.
-
-![](./images/import-swarm-file.png)
 
 ---
 
@@ -166,6 +167,8 @@ You’ll get a public HTTPS link to access your login page.
 
 Now follow the login flow — done! ✅
 
+![](./images/gensyn-login.png)
+
 ---
 
 ## 🧩 9️⃣ (Optional) Check swarm connectivity
@@ -179,8 +182,6 @@ tail -f ~/rl-swarm/logs/latest.log
 ```
 
 You’ll see rounds, rewards, and DHT messages confirming connection.  
-
-![](./images/swarm-logs.png)
 
 ---
 
