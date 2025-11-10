@@ -161,6 +161,9 @@ cloudflared tunnel --url http://localhost:3000
 
 ![](./images/cloudflared-tunnel.png)
 
+You’ll get a public HTTPS link to access your login page.
+Now follow the login flow — done! ✅
+
 ![](./images/gensyn-login.png)
 
 ---
@@ -236,9 +239,6 @@ chmod +x ~/start-swarm.sh
 ```bash
 bash ~/start-swarm.sh
 ```
-
-![](./images/start-swarm-success.png)
-
 ---
 
 ## ✅ Done!
