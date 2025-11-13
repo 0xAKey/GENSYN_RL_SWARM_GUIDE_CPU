@@ -251,3 +251,10 @@ tail -f ~/rl-swarm/logs/latest.log
 ```
 
 Stay synced — stay rewarded 💫
+
+📈 Upgrade to new release (CodeZero) {Mac/Linux}
+• Go to gensyn screen (VPS)
+
+screen -r gensyn
+
+• Stop your node by ctrl+c if you are on the gensyn screen (VPS)
