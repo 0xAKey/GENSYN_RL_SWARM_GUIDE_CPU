@@ -98,7 +98,7 @@ screen -S gensyn
 
 Then launch the swarm:
 ```bash
-bash run_rl_swarm.sh
+./run_rl_swarm.sh
 ```
 
 ![](./images/swarm-startup.png)
@@ -238,7 +238,7 @@ chmod +x ~/start-swarm.sh
 
 ### Step 3 — Run it anytime
 ```bash
-bash ~/start-swarm.sh
+./run_rl_swarm.sh
 ```
 ---
 
