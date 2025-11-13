@@ -289,8 +289,7 @@ git pull origin main
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-...
-
+...bash
 ./run_rl_swarm.sh
 ...
 
