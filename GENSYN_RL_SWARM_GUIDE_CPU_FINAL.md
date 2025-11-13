@@ -287,5 +287,11 @@ git pull origin main
 
 ## 6. Start the swarm node 🚀
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
+
+./run_rl_swarm.sh
+...
+
 
 Stay synced — stay rewarded 💫
