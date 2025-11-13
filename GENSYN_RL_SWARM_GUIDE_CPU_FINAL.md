@@ -251,38 +251,3 @@ tail -f ~/rl-swarm/logs/latest.log
 ```
 
 Stay synced — stay rewarded 💫
-
-📈 Upgrade to new release (CodeZero) {Mac/Linux}
-
-Go to gensyn screen (VPS)
-
-screen -r gensyn
-
-
-Stop your node using ctrl + c (only if you are already inside the gensyn screen on VPS)
-
-Move to rl-swarm directory
-
-cd rl-swarm
-
-
-Deactivate Environment
-
-deactivate
-rm -rf .venv
-
-
-Pull the latest release
-
-git switch main
-git reset --hard
-git clean -fd
-git pull origin main
-
-
-Start the swarm Node 🚀
-
-python3 -m venv .venv
-source .venv/bin/activate
-
-./run_rl_swarm.sh
