@@ -250,6 +250,8 @@ Monitor logs:
 tail -f ~/rl-swarm/logs/latest.log
 ```
 
+
+
 # 🔺 Upgrade to New Release (CodeZero) — Mac/Linux
 
 ## 1. Go to your gensyn screen (VPS)
